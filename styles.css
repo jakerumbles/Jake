@@ -67,7 +67,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 30px 100px 0;
+    padding: 5% 100px 0;
     animation: 1s fadein 0.5s forwards;
     opacity: 0;
 }
@@ -148,15 +148,6 @@ header nav li {
     font-size: 1.2rem;
 }
 
-.box {
-    padding-bottom: 5%;
-    padding-right: 5%;
-    padding-left: 5%;
-}
-
-.about .introduction p {
-    flex: 1 1 75%;
-}
 
 #looking-good {
     object-fit: cover;
@@ -181,23 +172,4 @@ section .music-about {
     margin-bottom: 30px;
 }
 
-section .music-about hr {
-    width: 45%;
-    margin-bottom: 10px;
-}
 
-section .music-about p {
-    font-size: 1.2rem;
-    line-height: 1.5;
-}
-
-.music .grid .box {
-    height: 300px;
-    flex: 1 1 50%;
-    margin: 0px 0px;
-    padding: 10px 10px;
-}
-
-.music .grid .box #solo-magic {
-    flex: 1 1 100%;
-}
