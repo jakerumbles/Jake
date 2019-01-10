@@ -18,12 +18,12 @@ nav {
     list-style: none;
 }
 
-/* @media screen and (min-width: 600px) {
+@media screen and (min-width: 600px) {
     nav {
         flex-direction: row;
         align-items: center;
     }
-} */
+}
 
 a {
     text-decoration: none;
