@@ -13,12 +13,13 @@ html {
 
 nav {
     display: flex;
+    flex-direction: column;
     list-style: none;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (min-width: 450px) {
     nav {
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
     }
 }
@@ -47,7 +48,7 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 100px 225px;
+    padding: 100px 10%;
 }
 
 .grid {
@@ -135,18 +136,33 @@ header nav li {
     min-height: 100vh;
 }
 
+.about .about-header {
+    margin-bottom: 15px;
+}
+
 .about .introduction {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 10px 10px;
     color: black;
     font-size: 1.2rem;
 }
 
+.box {
+    padding-bottom: 5%;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.about .introduction p {
+    flex: 1 1 75%;
+}
+
 #looking-good {
-    float: right;
-    width: 30%;
-    margin-left: 20px;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    border-radius: 10%;
+    object-fit: cover;
+    max-height: 100%;
+    width: 100%;
+    border-radius: 5%;
 }
 
 /* Music Styles */
