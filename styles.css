@@ -52,6 +52,12 @@ section {
     padding: 50px 7%;
 }
 
+@media screen and (min-width: 600px) {
+    section {
+        padding: 50px 20%;
+    }
+}
+
 .grid {
     width: 100%;
     display: flex;
